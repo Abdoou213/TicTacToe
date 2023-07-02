@@ -3,14 +3,14 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class TicTacToeGUI extends JFrame implements ActionListener {
+public class TicTacToe extends JFrame implements ActionListener {
     private JButton[][] buttons;
     private JLabel[] scoreLabels;
     private char[][] board;
     private char currentPlayer;
     private int xWins, oWins, ties;
 
-    public TicTacToeGUI() {
+    public TicTacToe() {
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         } catch (Exception e) {
@@ -187,6 +187,6 @@ public class TicTacToeGUI extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(TicTacToeGUI::new);
+        SwingUtilities.invokeLater(TicTacToe::new);
     }
 }
