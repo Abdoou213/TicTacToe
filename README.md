@@ -35,17 +35,17 @@ java Main
 
 ### Game Rules
 
-The game is played on a 3x3 grid.
+-The game is played on a 3x3 grid.
 
-Players take turns to mark their chosen symbol ('X' or 'O') on an empty cell.
+-Players take turns to mark their chosen symbol ('X' or 'O') on an empty cell.
 
-A player wins if they have three of their symbols in a row (horizontally, vertically, or diagonally).
+-A player wins if they have three of their symbols in a row (horizontally, vertically, or diagonally).
 
-If all cells are filled and no player has won, the game ends in a draw.
+-If all cells are filled and no player has won, the game ends in a draw.
 
-Players cannot make a move on an already occupied cell.
+-Players cannot make a move on an already occupied cell.
 
-The game can be quit at any time by entering 'q' or 'Q' when prompted for a move.
+-The game can be quit at any time by entering 'q' or 'Q' when prompted for a move.
 
 ### License
-This TicTacToe Java application is open-source and released under the MIT License. Feel free to modify and distribute the code as per the terms of the license.
+  This TicTacToe Java application is open-source and released under the MIT License. Feel free to modify and distribute the code as per the terms of the license.
