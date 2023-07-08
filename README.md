@@ -2,6 +2,9 @@
 
 This is a simple TicTacToe game implemented in Java. The game allows two players to take turns marking their chosen symbol ('X' or 'O') on a 3x3 grid until one player wins or the game ends in a draw.
 
+![image](https://github.com/Abdoou213/TicTacToe/assets/78567980/4d86c9de-5707-4598-b315-3a5a85fe899d)
+
+
 ### Installation
 To run the TicTacToe Java application, follow these steps:
 
